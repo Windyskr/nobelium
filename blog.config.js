@@ -3,7 +3,7 @@ const BLOG = {
   author: 'mhatp',
   email: 'blog@mhatp.cn',
   link: 'https://blog.mhatp.cn',
-  description: 'This gonna be an awesome website.',
+  description: '',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -37,7 +37,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
